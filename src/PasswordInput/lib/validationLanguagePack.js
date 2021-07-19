@@ -1,6 +1,6 @@
 define([], function () {
     return {
-        "en-us": {
+        "en": {
             "min_chars": "Minimum of {{min_chars}} characters",
             "require_upper": "At least one uppercase character",
             "require_lower": "At least one lowercase character",
@@ -11,7 +11,7 @@ define([], function () {
             "password_not_equal": "Confirmation password is not equal",
             "processing": "Saving.."
         },
-        "nl-nl": {
+        "nl": {
             "min_chars": "Minimaal {{min_chars}} karakter(s)",
             "require_upper": "Minimaal 1 hoofdletter",
             "require_lower": "Minimaal 1 kleine letter",

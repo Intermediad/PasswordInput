@@ -55,7 +55,8 @@ define([
             //logger.level(logger.DEBUG);
             logger.debug(this.id + ".constructor");
             this._handles = [];
-            this.translations = validationTranslations[dojo.locale];
+            var locale = dojo.locale.substr(0, dojo.locale.indexOf('-'));
+            this.translations = validationTranslations[locale];
         },
 
         postCreate: function() {
